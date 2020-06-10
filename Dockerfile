@@ -1,4 +1,4 @@
 FROM tomcat:latest
 WORKDIR /usr/local/tomcat/webapps
 COPY target/java-tomcat-maven-example.war java-tomcat-maven-example.war
-EXPOSE 8085
+EXPOSE 8080
